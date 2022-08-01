@@ -1,26 +1,80 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.portfolio-background1 {
+  background-image: url('../public/PORTFOLIO-FLASH-1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height:100vh;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@media only screen and (max-width: 1000px) {
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+  .portfolio-background {
+    background-position: 80%;
   }
-  body {
-    color: white;
-    background: black;
+  .natalia-background {
+    background-position: 80%;
   }
+}
+
+
+
+
+
+
+.portfolio-background2 {
+  background-image: url('../public/PORTFOLIO-FLASH-2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height:100vh;
+}
+
+.portfolio-background3 {
+  background-image: url('../public/PORTFOLIO-FLASH-3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height:100vh;
+}
+
+.portfolio-background4 {
+  background-image: url('../public/PORTFOLIO-FLASH-4.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height:100vh;
+}
+
+.portfolio-background5 {
+  background-image: url('../public/PORTFOLIO-FLASH-5.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height:100vh;
+}
+
+.portfolio-background6 {
+  background-image: url('../public/PORTFOLIO-FLASH-6.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height:100vh;
+}
+
+.portfolio-background7 {
+  background-image: url('../public/PORTFOLIO-FLASH-7.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height:100vh;
 }
