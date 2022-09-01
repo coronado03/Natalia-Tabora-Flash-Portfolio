@@ -27,7 +27,7 @@ export default function Home() {
       <div className="portfolio-background3" />
       <div className="portfolio-background4" />
       <div className="portfolio-background5 relative">
-        <div className="absolute top-[60 %] left-[25.2%] max-w-[17%]">
+        <div className="absolute top-[60%] left-[25.2%] max-w-[17%]">
           <img className="contain" src="OJITO-.gif" />
         </div>
       </div>
